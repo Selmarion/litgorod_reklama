@@ -35,30 +35,13 @@ const books: Book[] = [
     bookUrl: 'https://litgorod.ru/books/view/47267',
   },
   {
-    title: 'Драконий развод, или Списанная со счетов',
-    author: 'София Руд.',
-    imageUrl: 'https://cdn.litgorod.ru/api/v1/images/covers/249535b81fa62005b907aaaafc29743a.png',
-    bookUrl: 'https://litgorod.ru/books/view/50128',
-  },
-  {
-    title: 'Ненужная жена. Хозяйка сада пустоцветов',
-    author: 'Алиса Князева',
-    imageUrl: 'https://cdn.litgorod.ru/api/v1/images/covers/8fcb0265c7e3ea41c2fb421094dd3062.png',
-    bookUrl: 'https://litgorod.ru/books/view/50431',
-  },
-    {
     title: 'Развод с Владыкой драконов. Сама себе хозяйка🍓',
     author: 'НИКА АСТРА',
     imageUrl: 'https://cdn.litgorod.ru/api/v1/images/covers/d74e25d7bb4675aec88a3e76da4bca44.gif',
     bookUrl: 'https://litgorod.ru/books/view/50989',
     isGif: true,
   },
-  {
-    title: 'Жестокий развод с драконом',
-    author: 'Эйрена Космос',
-    imageUrl: 'https://cdn.litgorod.ru/api/v1/images/covers/f1eb0dc9c932220b1fabca877adb6ae9.png',
-    bookUrl: 'https://litgorod.ru/books/view/50616',
-  },
+  
 ];
 
 const BookCard: React.FC<{ book: Book }> = ({ book }) => (
