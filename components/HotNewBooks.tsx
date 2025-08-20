@@ -17,6 +17,13 @@ const books: Book[] = [
     isGif: true,
   },
   {
+    title: 'Федеральный закон для ушастых',
+    author: 'Сова Люськина',
+    imageUrl: 'https://cdn.litgorod.ru/api/v1/images/covers/5b3bda73cbe5ddb15cf402a922289a6d.jpg',
+    bookUrl: 'https://litgorod.ru/books/view/32317',
+  },
+  
+  {
     title: ' 🐾Кошка в жёны, или Не мечтай о разводе, дракон! 🐾',
     author: 'Ольга Коротаева',
     imageUrl: 'https://cdn.litgorod.ru/api/v1/images/covers/90230922b2737c5dbac33e25d85eeed7.gif',
@@ -41,6 +48,21 @@ const books: Book[] = [
     bookUrl: 'https://litgorod.ru/books/view/50989',
     isGif: true,
   },
+  {
+    title: 'Потерянная пара Дракона',
+    author: 'Инна Разина',
+    imageUrl: 'https://cdn.litgorod.ru/api/v1/images/covers/14a33f62a363692093b95e9b03718ba6.gif',
+    bookUrl: 'https://litgorod.ru/books/view/47537',
+    isGif: true,
+  },
+  {
+    title: 'Точка искажения',
+    author: 'Алёна Соловьёва',
+    imageUrl: 'https://cdn.litgorod.ru/api/v1/images/covers/ab94e27405b9c6436d3163f76fac42cf.gif',
+    bookUrl: 'https://litgorod.ru/books/view/1107',
+    isGif: true,
+  },
+  
   
 ];
 
